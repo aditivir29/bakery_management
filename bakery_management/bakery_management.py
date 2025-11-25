@@ -3,7 +3,7 @@ print("BAKERY MANAGEMENT SYSTEM")
 import mysql.connector
 
 # Connect to MySQL
-mydb = mysql.connector.connect(host="localhost", user="root", passwd="abcdefg")
+mydb = mysql.connector.connect(host="localhost", user="root", passwd="your_password")
 mycursor = mydb.cursor()
 
 # Create and select database
@@ -159,4 +159,5 @@ while True:
 
     else:
         print("Invalid choice. Please try again.")
+
 
